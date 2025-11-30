@@ -4,15 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tarifler - Lezzetli Yemek Tarifleri</title>
+  <link rel="stylesheet" href="still.css">
+  <style>
+  .baslık{
+   text-align:center;
+   text-decoration-line:overline underline;
+   text-decoration-color:blue;
+   color:green;
+    }
+  .gecis{
+     text-align:center;
+	 background-color:yellow;
+     }
+  .baslık2{
+     text-align:center;
+	 background-color.red;
+    }
+	.mercimekcorba{
+	margin-top: 20px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 20px;
+	background-color: yellow;
+			
+    border-style: solid;
+	border-width: 20px;
+				
+	width: 500px;
+				
+    padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+	  }
+	.resimercimek{
+	text-align:center;
+	   }
+	   .tarif{
+	   text-align:center;
+	   text-align:center;
+	      }
+	.mercimektarif{
+	margin-top: 20px;
+	margin-left: 40px;
+    margin-right: 40px;
+	margin-bottom: 20px;
+	background-color: yellow;
+			
+    border-style: solid;
+	border-width: 20px;
+				
+	width: 500px;
+				
+    padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px; 
+	   }
+  </style>
 </head>
 
 <body>
 
   <header>
-    <h1>Tarifler</h1>
+    <h1 class="baslık">Tarifler</h1>
   </header>
 
-  <nav>
+  <nav class="gecis">
     <a href="index.html">Ana Sayfa</a>
     <a href="tablolar.html">Tablolar</a>
     <a href="tarifler.html">Tarifler</a>
@@ -21,9 +79,9 @@
   </nav>
 
 
-  <h2>Mercimek Çorbası</h2>
-  <p><strong>Malzemeler:</strong></p>
-  <ul>
+  <h2 class="baslık2">Mercimek Çorbası</h2>
+  <p class="baslık3"><strong>Malzemeler</strong></p>
+  <ul class="mercimekcorba">
     <li>1 su bardağı kırmızı mercimek</li>
     <li>1 adet orta boy soğan</li>
     <li>1 yemek kaşığı un</li>
@@ -34,11 +92,12 @@
     <li>Yarım çay kaşığı karabiber</li>
     <li>1 tatlı kaşığı kırmızı toz biber (isteğe bağlı)</li>
   </ul>
-  <img src="foto/mercimek.jpeg" alt="Mercimek çorbası" width="300">
+    <div class="resimercimek">
+    <img src="foto/mercimek.jpeg" alt="Mercimek çorbası" width="500">
+    </div>
 
-
-  <p><strong>Tarif:</strong></p>
-  <ol>
+  <p class="tarif"><strong>Tarif</strong></p>
+  <ol class="mercimektarif">
     <li>Soğanları pembeleşene kadar kavur.</li>
     <li>Un ekleyip kısık ateşte kavurmaya devam et.</li>
     <li>Mercimek, havuç ve suyu ekle; yumuşayana kadar pişir.</li>
@@ -47,84 +106,90 @@
   </ol>
 
  
-  <h2>Pirinç Pilavı</h2>
-  <ul>
+  <h2 class="pirincbaslık">Pirinç Pilavı</h2>
+  <ul class="pirincpilav">
     <li>2 su bardağı pirinç</li>
     <li>2,5 su bardağı sıcak su</li>
     <li>3 yemek kaşığı tereyağı</li>
     <li>1 yemek kaşığı sıvı yağ</li>
     <li>Tuz</li>
   </ul>
+  <div class="pilavfoto">
   <img src="foto/pilav.jpeg" alt="Pirinç pilavı" width="300">
-
-  <ol>
+  </div>
+  <ol class="pilavtarif">
     <li>Pirinçleri ılık tuzlu suda beklet, süz ve yıka.</li>
     <li>Tereyağında kavur, suyu ekle, kısık ateşte pişir.</li>
     <li>Demlendir, karıştır, servis et.</li>
   </ol>
 
-  <h2>Çoban Salatası</h2>
-  <ul>
+  <h2 class="cobansalata">Çoban Salatası</h2>
+  <ul class="cobansalatası">
     <li>1 domates, 1 salatalık, 1 yeşil biber</li>
     <li>Yarım soğan, tuz, limon, zeytinyağı</li>
   </ul>
+  <div class="salatafoto">
   <img src="foto/salata.jpeg" alt="Çoban salatası" width="300">
-
-  <ol>
+   </div>
+  <ol class="salatatarif">
     <li>Tüm malzemeleri küçük doğra, karıştır.</li>
     <li>Üzerine limon suyu ve zeytinyağı ekle.</li>
   </ol>
 
-  <h2>Paçanga Böreği</h2>
-  <ul>
+  <h2 class="pacangabaslık">Paçanga Böreği</h2>
+  <ul class="pacangaböregi">
     <li>Yufka, domates, biber, kaşar, pastırma</li>
     <li>Sıvı yağ</li>
   </ul>
+  <div class="pacangafoto">
   <img src="foto/pacanga.jpeg" alt="Çoban salatası" width="300">
-
-  <ol>
+  </div>
+  <ol class="pacangatarif">
     <li>İç harcı hazırla, yufkaya koy, sar.</li>
     <li>Kızgın yağda önlü arkalı kızart.</li>
   </ol>
 
 
-  <h2>Köfte</h2>
-  <ul>
+  <h2 class="koftebaslık">Köfte</h2>
+  <ul class="koftemalzeme">
     <li>500 gr kıyma, 1 soğan, 1 yumurta, baharatlar</li>
   </ul>
+  <div class="koftefoto">
   <img src="foto/kofte.jpeg" alt="Köfte" width="300">
-
-  <ol>
+  </div>
+  <ol class="koftetarif">
     <li>Tüm malzemeleri yoğur, dolapta dinlendir.</li>
     <li>Şekil verip az yağda pişir.</li>
   </ol>
 
   
-  <h2>Sufle</h2>
-  <ul>
+  <h2 class="sufle">Sufle</h2>
+  <ul class="suflemalzeme">
     <li>3 yumurta, 80g çikolata, 50g tereyağı, ½ su bardağı un, şeker</li>
   </ul>
+  <div class="suflefoto">
   <img src="foto/sufle.jpeg" alt="Sufle" width="300">
-
-  <ol>
+  </div>
+  <ol class="sufletarif">
     <li>Çikolatayı tereyağında erit.</li>
     <li>Yumurta ve şekeri çırp, karıştır.</li>
     <li>Kalıplara dök, 220°C’de 7–8 dk pişir.</li>
   </ol>
 
 
-  <h2>Ayran</h2>
-  <ul>
+  <h2 class="ayran">Ayran</h2>
+  <ul class="ayranmalzeme">
     <li>1 bardak yoğurt, 1 bardak su, tuz</li>
   </ul>
+  <div class="ayranfoto">
   <img src="foto/ayran.jpeg" alt="Ayran" width="300">
 
-  <ol>
+  <ol class="ayrantarif">
     <li>Tüm malzemeleri blender’da karıştır.</li>
     <li>Soğuk servis et.</li>
   </ol>
 
-  <footer>
+  <footer class="alt">
     <p>© 2025 Lezzetli Yemek Tarifleri | Tüm hakları saklıdır.</p>
   </footer>
 

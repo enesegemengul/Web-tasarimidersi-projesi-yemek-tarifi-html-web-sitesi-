@@ -4,30 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>İletişim - Lezzetli Yemek Tarifleri</title>
-
+  <style>
+   .baslık1{
+   background-color:red;
+   color:gray;
+   }
+  .gecis{
+    text-align:center;
+	background-color:yellow;
+   }
+  .baslık2{
+  color:gray;
+  background-color:blue;
+    }
+  div.bilgiler{
+    margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	background-color: yellow;
+				
+	border-style: solid;
+	border-width: 20px;
+				
+	width: 500px;
+				
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+    }
+	.altbaslık{
+	  background-color:red;
+	  }
+  </style>
 </head>
 
 <body>
 
   <header>
-    <h1>İletişim</h1>
+    <h1 class="baslık1">İletişim</h1>
   </header>
 
-  <nav>
+  <nav class="gecis">
     <a href="index.html">Ana Sayfa</a>
     <a href="tablolar.html">Tablolar</a>
     <a href="tarifler.html">Tarifler</a>
     <a href="iletisim.html">İletişim</a>
     <a href="hakkimizda.html">Hakkımızda</a>
   </nav>
-
-  <h2> İletişim Yolları</h2>
+  
+  <h2 class="baslık2"> İletişim Yolları</h2>
+  <div class="bilgiler">
   <p><strong>E-posta:</strong> gul2007enes@gmail.com</p>
   <p><strong>Telefon:</strong> +90 541 417 18 53</p>
   <p><strong>Adres:</strong> İstanbul, Türkiye</p>
-
+  </div>
   <footer>
-    <p>© 2025 Lezzetli Yemek Tarifleri | Tüm hakları saklıdır.</p>
+    <p class="altbaslık">© 2025 Lezzetli Yemek Tarifleri | Tüm hakları saklıdır.</p>
   </footer>
 
 </body>
