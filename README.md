@@ -1,4 +1,4 @@
-# Lezzetli Yemek Tarifleri 🍽️
+ Lezzetli Yemek Tarifleri 
 
 Bu proje, HTML ve CSS kullanılarak geliştirilmiş basit bir yemek tarifleri web sitesidir.  
 
