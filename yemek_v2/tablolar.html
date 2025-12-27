@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>İletişim - Lezzetli Yemek Tarifleri</title>
+    <title>Tablolar - Lezzetli Yemek Tarifleri</title>
 
     <style>
         body {
@@ -15,13 +15,18 @@
         header {
             background-color: #ffcc66;
             text-align: center;
-            padding: 20px;
+            padding: 25px;
+        }
+
+        header h1 {
+            color: #003399;
+            text-decoration: underline;
         }
 
         nav {
             background-color: #ffffff;
             text-align: center;
-            padding: 10px;
+            padding: 12px;
         }
 
         nav a {
@@ -42,18 +47,36 @@
             border-radius: 8px;
         }
 
-        h2 {
-            background-color: #ffcc66;
-            padding: 10px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        caption {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px;
+            border: 1px solid #ddd;
             text-align: center;
         }
 
-        .bilgiler {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #ffffcc;
-            border: 2px solid #ccc;
-            width: 400px;
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: center;
+            background-color: #fafafa;
+        }
+
+        tr:hover td {
+            background-color: #d9ffd9;
         }
 
         footer {
@@ -68,7 +91,7 @@
 <body>
 
 <header>
-    <h1>İletişim</h1>
+    <h1>Tablolar</h1>
 </header>
 
 <nav>
@@ -80,13 +103,27 @@
 </nav>
 
 <main>
-    <h2>İletişim Yolları</h2>
-
-    <div class="bilgiler">
-        <p><strong>E-posta:</strong> gul2007enes@gmail.com</p>
-        <p><strong>Telefon:</strong> +90 541 417 18 53</p>
-        <p><strong>Adres:</strong> İstanbul, Türkiye</p>
-    </div>
+    <table>
+        <caption>Yemek Kategorileri</caption>
+        <tr>
+            <th>Çorbalar</th>
+            <th>Pilavlar</th>
+            <th>Salatalar</th>
+            <th>Börekler</th>
+            <th>Ana Yemekler</th>
+            <th>Tatlılar</th>
+            <th>İçecekler</th>
+        </tr>
+        <tr>
+            <td>Mercimek Çorbası</td>
+            <td>Pirinç Pilavı</td>
+            <td>Çoban Salatası</td>
+            <td>Paçanga Böreği</td>
+            <td>Köfte</td>
+            <td>Sufle</td>
+            <td>Ayran</td>
+        </tr>
+    </table>
 </main>
 
 <footer>
@@ -95,4 +132,5 @@
 
 </body>
 </html>
+
 
